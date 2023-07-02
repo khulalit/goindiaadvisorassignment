@@ -2,10 +2,10 @@
 import { useEffect, useState } from 'react'
 
 export default function useScreenWidth() {
-    const [width, setScreenWidth] = useState(0);
+    const [width, setScreenWidth] = useState<number>(1000);
 
     useEffect(() => {
-        
+        setScreenWidth(window.innerWidth)
         const handleResize = () => {
         setScreenWidth(window.innerWidth);
         };

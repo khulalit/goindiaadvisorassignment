@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <Provider store={store}>
             <div className={`  flex overflow-hidden scrollbar-styles`} style={{
-              height : width > 768 ? 'calc(100vh - 220px)': 'max-content'
+              height : width && width > 768 ? 'calc(100vh - 220px)': 'max-content'
             }}>
               <Drawer/>
               {width < 768? (visible == 0 ?<DiscussionFourm/>:
