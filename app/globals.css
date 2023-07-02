@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --gray: #9B9BB5;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,13 +16,77 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.pill-red{
+  padding-inline: 5px;
+  padding-block: 10px;
+  background-color: red;
+}
+.inner-shadow{
+   border-radius: 10px;
+  background-color: rgba(0,0,0,0.4);
+  box-shadow: inset -4px -4px 5px rgba(0,0,0,0.2),inset 4px 4px 5px  rgba(0,0,0,0.2)
+}
+.btn-outline{
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: black; 
+}
+.dot{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: white;
+}
+.hide-d{
+  display: none;
+}
+.width-res{
+  width: 50%;
+}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 50%;
+}
+
+::-webkit-scrollbar-track {
+  background: #9B9BB5; 
+  padding: 2px;
+  border-radius: 10px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: rgb(230, 225, 225); 
+  border-radius: 10px;
+  border : 2px solid #9B9BB5;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /* .width-res{
+    max-width: 220px;
+  } */
+  .hide-m{
+    display: none;
+  }
+  .hide-d{
+    display: flex;
+  }
+  .df{
+    width: 100%;
+  }
+  .nopadding-m{
+    padding-inline: 0;
+  }
+  .drawer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    z-index: 23;
+  }
 }

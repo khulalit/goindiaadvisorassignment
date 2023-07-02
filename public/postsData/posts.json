@@ -1,0 +1,93 @@
+[
+    {
+      "comment": "Great post!",
+      "likes": 10,
+      "numberOfComments": 5,
+      "numberOfViews": 1000,
+      "category": "section1",
+      "userImage": null,
+      "username": "user1"
+    },
+    {
+      "comment": "Nice work!",
+      "likes": 5,
+      "numberOfComments": 3,
+      "numberOfViews": 500,
+      "category": "section2",
+      "userImage": null,
+      "username": "user2"
+    },
+    {
+      "comment": "Interesting topic!",
+      "likes": 8,
+      "numberOfComments": 2,
+      "numberOfViews": 800,
+      "category": "section1",
+      "userImage": "https://example.com/user3.jpg",
+      "username": "user3"
+    },
+    {
+      "comment": "I have a question.",
+      "likes": 2,
+      "numberOfComments": 0,
+      "numberOfViews": 200,
+      "category": "section3",
+      "userImage": "https://example.com/user4.jpg",
+      "username": "user4"
+    },
+    {
+      "comment": "Well written!",
+      "likes": 7,
+      "numberOfComments": 1,
+      "numberOfViews": 700,
+      "category": "section2",
+      "userImage": "https://example.com/user5.jpg",
+      "username": "user5"
+    },
+    {
+      "comment": "Thanks for sharing!",
+      "likes": 3,
+      "numberOfComments": 0,
+      "numberOfViews": 300,
+      "category": "section1",
+      "userImage": "https://example.com/user6.jpg",
+      "username": "user6"
+    },
+    {
+      "comment": "I agree with you.",
+      "likes": 6,
+      "numberOfComments": 4,
+      "numberOfViews": 600,
+      "category": "section3",
+      "userImage": "https://example.com/user7.jpg",
+      "username": "user7"
+    },
+    {
+      "comment": "Can you explain further?",
+      "likes": 1,
+      "numberOfComments": 0,
+      "numberOfViews": 100,
+      "category": "section1",
+      "userImage": "https://example.com/user8.jpg",
+      "username": "user8"
+    },
+    {
+      "comment": "I learned something new.",
+      "likes": 9,
+      "numberOfComments": 2,
+      "numberOfViews": 900,
+      "category": "section2",
+      "userImage": "https://example.com/user9.jpg",
+      "username": "user9"
+    },
+    {
+      "comment": "Keep up the good work!",
+      "likes": 4,
+      "numberOfComments": 1,
+      "numberOfViews": 400,
+      "category": "section3",
+      "userImage": "https://example.com/user10.jpg",
+      "username": "user10"
+    }
+  ]
+  

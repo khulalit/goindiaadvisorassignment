@@ -1,0 +1,18 @@
+[
+    {
+        "id" : "1",
+        "path": "/companiesImage/1.png"
+    },
+    {
+        "id" : "2",
+        "path": "/companiesImage/2.png"
+    },
+    {
+        "id" : "3",
+        "path": "/companiesImage/3.png"
+    },
+    {
+        "id" : "4",
+        "path": "/companiesImage/4.png"
+    }
+]
